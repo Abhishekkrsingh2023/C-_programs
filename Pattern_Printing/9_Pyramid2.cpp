@@ -12,6 +12,9 @@ eg- n=7 (upto the user)
 *
 
 */
+
+// NOTE : Number of rows should be odd number.
+
 #include <iostream>
 using namespace std;
 
@@ -21,7 +24,11 @@ int main()
     cout << "Enter the number of row : ";
     cin >> row;
     // varibles for 1st and 2nd half
-    int r1 = row / 2 + 1, r2 = row / 2;
+    int r1,r2 = row / 2;
+    if (row % 2 != 0)
+        r1 = row / 2 + 1;
+    else
+        r1 = row / 2;
 
     // loop for pattern1
     for (int j = 1; j <= r1; j++)
