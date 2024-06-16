@@ -1,5 +1,5 @@
 /*
-OBJECTI VE : Program to print a square pattern of length 'n'.
+OBJECTIVE : Program to print a square pattern of length 'n'.
 eg- n=6
 
 * * * * * *

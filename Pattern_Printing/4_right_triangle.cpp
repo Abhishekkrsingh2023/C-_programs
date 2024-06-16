@@ -1,6 +1,6 @@
 /*
 
-OBJECTI VE : Program to print a triangular pattern with parameter 'n or row number'.
+OBJECTIVE : Program to print a triangular pattern with parameter 'n or row number'.
 eg- n=5
 
 format:1            or          Format : 2

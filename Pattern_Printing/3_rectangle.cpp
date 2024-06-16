@@ -1,6 +1,6 @@
 /*
 
-OBJECTI VE : Program to print a rectangular pattern of dimension LxB.
+OBJECTIVE : Program to print a rectangular pattern of dimension LxB.
 eg- L=6 and B=4
 
 * * * * * *
