@@ -21,7 +21,7 @@ using namespace std;
 int main()
 {
     int row;
-    cout << "Enter the number of rows : ";
+    cout << "Enter the number of rows(odd) : ";
     cin >> row;
     int r1, r2;
     r1 = row / 2 + 1;

@@ -1,6 +1,6 @@
 /*
 
-OBJECTIVE : Program to print a parallelogram pattern of dimension LxB.
+OBJECTIVE : Program to print a rhombus pattern .
 eg- n=5
 
     *
