@@ -31,7 +31,12 @@ int Binary_search(int arr[], int n, int key)
     // the main algorithm
     while (st <= end)
     {
-        mid = (st / 2 + end);
+        /*
+            first equation
+            mid = (st / 2 + end);
+            we have a more efficient equation i.e
+        */
+        mid = st + (end - st) / 2;
         if (arr[mid] == key)
             return mid;
         else if (arr[mid] > key)
