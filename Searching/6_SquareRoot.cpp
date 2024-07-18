@@ -5,7 +5,7 @@ using namespace std;
 
 int Sqrt(int num)
 {
-    int st = 1, end = num - 1;
+    int st = 1, end = num;
     int mid = st + (end - st) / 2;
     int ans = 0;
 
