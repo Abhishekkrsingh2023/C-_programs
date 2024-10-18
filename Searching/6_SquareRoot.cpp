@@ -28,7 +28,7 @@ int Sqrt(int num)
 
 int main()
 {
-    int nums = 1600;
+    int nums = 45;
     cout << Sqrt(nums);
     return 0;
 }
